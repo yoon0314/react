@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const Event4 = () => {
   //input에 입력한 값을 저장할 변수
 const [text, setText] =useState("")
-  //상태변수의 값을 변경할 메서드
+  //상태변수의 값을 변경할 메서드 또는 기타 스크립트
   
   
     return (

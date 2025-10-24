@@ -7,6 +7,7 @@ import ComCondition1Class from './components/ComCondition1Class';
 import ComCondition2Funct from './components/ComCondition2Funct';
 import ComCondition3 from './components/ComCondition3';
 import ComConditionLogin from './components/ComConditionLogin';
+import ComConditionLogin4 from './components/ComConditionLogin4';
 import ComFunctImg3 from './components/ComFunctImg3';
 import ComFunction2 from './components/ComFunction2';
 import ComFunction from './components/ComFunction2';
@@ -16,12 +17,16 @@ import ComFuntProps3 from './components/ComFuntProps3';
 import ComFuntProps4Object from './components/ComFuntProps4Object';
 import ComFuntProps5Child from './components/ComFuntProps5Child';
 import Event1 from './components/Event1';
+import Event10 from './components/Event10';
+import Event11 from './components/Event11';
 import Event2 from './components/Event2';
 import Event3 from './components/Event3';
 import Event4 from './components/Event4';
 import Event5 from './components/Event5';
 import Event6 from './components/Event6';
 import Event7 from './components/Event7';
+import Event8 from './components/Event8';
+import Event9 from './components/Event9';
 import Jsx1variable from './components/Jsx1variable';
 import Jsx2Function from './components/Jsx2Function';
 import Jsx3If from './components/Jsx3If';
@@ -29,6 +34,13 @@ import Jsx4Style from './components/Jsx4Style';
 import Jsx5Import from './components/Jsx5Import';
 import List6Filter from './components/List6Filter';
 import List7Filter from './components/List7Filter';
+import StateUp0 from './components/StateUp0';
+import StateUp1 from './components/StateUp1';
+import StateUp2 from './components/StateUp2';
+import StateUp3 from './components/StateUp3';
+import StateUp4 from './components/StateUp4';
+import StateUp5 from './components/StateUp5';
+import StateUp6 from './components/StateUp6';
 import Xxx from './components/Xxx';
 import Login1 from './components/Xxx';
 import Login from './components/Xxx';
@@ -87,6 +99,7 @@ function App() {
       <ComCombine1/>
       <ComCombine2Object/>
       <ComCombine3Object/>
+      
 
       <h2>조건문</h2>
       <h3>클래스 컴포넌트</h3>
@@ -98,17 +111,29 @@ function App() {
       {/* <List6Filter/>
       <List7Filter/> */}
 
-      <h2>이벤트</h2>
+      {/* <h2>이벤트</h2>
       <p>마우스 이벤트 -onCLICK, OnMouseEenter, onMouseLeave, onMouseOver, onMouseOut</p>
       <p>키보드 이벤트-onKeyDown, onKeyUp</p>
-      <p>폼 이벤트-onChange(입력값이 변경될때), onInput(입력할때마다), onSubmit(제출)</p>
-      <Event1 />
+      <p>폼 이벤트-onChange(입력값이 변경될때), onInput(입력할때마다), onSubmit(제출)</p> */}
+      {/* <Event1 />
       <Event2/>
       <Event3/>
       <Event4/>
       <Event5/>
       <Event6/>
       <Event7/>
+      <Event8/> */}
+      {/* <Event9/>
+      <Event10/>
+      <Event11/> */}
+      <StateUp0 />
+      <StateUp1 />
+      <StateUp2/>
+      <StateUp3/>
+      <StateUp4/>
+      <StateUp5/>
+      <StateUp6/>
+      
 
 
     </div>
